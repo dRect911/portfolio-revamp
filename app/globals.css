@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  
+main {
+  filter: url("#grainy")
 }
 
+/* body::before,
+body::after {
+  @apply absolute left-0 top-0 content-[''] w-full h-full z-[9999] opacity-10
+}
+
+body::before {
+  background: #000000;
+  filter: url("#grainy");
+} */
