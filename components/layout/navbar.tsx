@@ -36,20 +36,20 @@ return (
           {/* <Image src="/../public/assets/svg/sssquiggly.png" alt="/" width="50" height="50"  /> */}
           <div>
               <ul className="hidden md:flex items-center text-neutral-700 dark:text-neutral-400" >
-                  <Link href='/#main' target="_blank" scroll={false}>
-                      <li className="ml-10 text-[16px] uppercase hover:text-neutral-900 relative after:content-[''] after:absolute after:block after:w-0 after:h-[3px] after:-bottom-[3px] after:left-0 after:bg-gradient-to-r after:from-purple-500 after:to-orange-400 after:transition-all after:duration-300 hover:after:w-full" >Home</li>
+                  <Link href='/#hero'  scroll={false}>
+                      <li className="ml-10 text-[16px] uppercase hover:text-neutral-900 relative after:content-[''] after:absolute after:block after:w-0 after:h-[3px] after:-bottom-[3px] after:left-0 after:bg-gradient-to-r after:from-purple-500 after:via-pink-500 after:to-orange-400 after:transition-all after:duration-300 hover:after:w-full" >Intro</li>
                   </Link>
-                  <Link href='/#about' target="_blank" scroll={false}>
-                      <li className="ml-10 text-[16px] uppercase hover:text-neutral-900 relative after:content-[''] after:absolute after:block after:w-0 after:h-[3px] after:-bottom-[3px] after:left-0 after:bg-gradient-to-r after:from-purple-500 after:to-orange-400 after:transition-all after:duration-300 hover:after:w-full" >About</li>
+                  <Link href='/#about'  scroll={false}>
+                      <li className="ml-10 text-[16px] uppercase hover:text-neutral-900 relative after:content-[''] after:absolute after:block after:w-0 after:h-[3px] after:-bottom-[3px] after:left-0 after:bg-gradient-to-r after:from-purple-500 after:via-pink-500 after:to-orange-400 after:transition-all after:duration-300 hover:after:w-full" >About me</li>
                   </Link>
-                  <Link href='/#skills' target="_blank" scroll={false}>
-                      <li className="ml-10 text-[16px] uppercase hover:text-neutral-900 relative after:content-[''] after:absolute after:block after:w-0 after:h-[3px] after:-bottom-[3px] after:left-0 after:bg-gradient-to-r after:from-purple-500 after:to-orange-400 after:transition-all after:duration-300 hover:after:w-full" >Skills</li>
+                  <Link href='/#skills'  scroll={false}>
+                      <li className="ml-10 text-[16px] uppercase hover:text-neutral-900 relative after:content-[''] after:absolute after:block after:w-0 after:h-[3px] after:-bottom-[3px] after:left-0 after:bg-gradient-to-r after:from-purple-500 after:via-pink-500 after:to-orange-400 after:transition-all after:duration-300 hover:after:w-full" >Skills</li>
                   </Link>
-                  <Link href='/#projects' target="_blank" scroll={false}>
-                      <li className="ml-10 text-[16px] uppercase hover:text-neutral-900 relative after:content-[''] after:absolute after:block after:w-0 after:h-[3px] after:-bottom-[3px] after:left-0 after:bg-gradient-to-r after:from-purple-500 after:to-orange-400 after:transition-all after:duration-300 hover:after:w-full" >Projects</li>
+                  <Link href='/#projects'  scroll={false}>
+                      <li className="ml-10 text-[16px] uppercase hover:text-neutral-900 relative after:content-[''] after:absolute after:block after:w-0 after:h-[3px] after:-bottom-[3px] after:left-0 after:bg-gradient-to-r after:from-purple-500 after:via-pink-500 after:to-orange-400 after:transition-all after:duration-300 hover:after:w-full" >Projects</li>
                   </Link>
-                  <Link href='/#contact' target="_blank" scroll={false}>
-                      <li className="ml-10 text-[16px] uppercase hover:text-neutral-900 relative after:content-[''] after:absolute after:block after:w-0 after:h-[3px] after:-bottom-[3px] after:left-0 after:bg-gradient-to-r after:from-purple-500 after:to-orange-400 after:transition-all after:duration-300 hover:after:w-full" >Contact</li>
+                  <Link href='/#contact'  scroll={false}>
+                      <li className="ml-10 text-[16px] uppercase hover:text-neutral-900 relative after:content-[''] after:absolute after:block after:w-0 after:h-[3px] after:-bottom-[3px] after:left-0 after:bg-gradient-to-r after:from-purple-500 after:via-pink-500 after:to-orange-400 after:transition-all after:duration-300 hover:after:w-full" >Contact</li>
                   </Link>
       
               </ul>
